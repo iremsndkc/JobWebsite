@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İş Arama Platformu</title>
+    <!--Fontawesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--bootstrap link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!--css link-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--HEADER-->
+    <header id="header">
+      <div class="menu-bar">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Meris İş Platformu</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Tüm İşler</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Şirketler</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Güncel İşler
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">On-Site</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Remote</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Hybrid</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-disabled="true">Staj</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="banner text-center">
+          <h1>"Here's Your Dream Career, Just One Click Away!"</h1>
+          <p>
+            "Explore and Shape Your Career!" Don't get lost among thousands of
+            carefully selected job listings. With us, streamline your job search
+            experience and take the right steps towards your future. Discover
+            job opportunities tailored to you and get closer to your dream
+            career. Click now to get started and shape your future!
+          </p>
+        </div>
+      </div>
+    </header>
+    <!--iş arama kısmı-->
+    <div class="search-job text-center">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Enter position information"
+      />
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Enter company name"
+      />
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Enter location name"
+      />
+      <input type="button" class="btn btn-primary" value="Find a Job" />
+    </div>
+    <!--top jobs-->
+    <section id="jobs">
+      <div class="container text-center">
+        <h3>POPULAR WORKS</h3>
+        <div>
+          <img src="images/adidas-logo.webp" alt="" />
+          <img src="images/apple-logo.jpeg" alt="" />
+          <img src="images//arabuleu-logo.png" alt="" />
+          <img src="images/cococola-logo.jpeg" alt="" />
+          <img src="images/fedex-logo.png" alt="" />
+          <img src="images/nike-logo.png" alt="" />
+          <img src="images/socar-logo.png" alt="" />
+          <img src="images/gratis-logo.png" alt="" />
+          <img src="images/netflix-logo.jpeg" alt="" />
+        </div>
+        <div>
+          <img src="images/asus-logo.jpg" alt="" />
+          <img src="images/ikea-logo.png" alt="" />
+          <img src="images/logitech-logo.png" alt="" />
+          <img src="images/watsons-logo.jpg" alt="" />
+          <img src="images/mac-logo.jpg" alt="" />
+          <img src="images/samsung-logo.png" alt="" />
+          <img src="images/msi-logo.png" alt="" />
+          <img src="images/monster-logo.jpg" alt="" />
+          <img src="images/udemig-logo.jpeg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!--job info-->
+    <section id="top-job">
+      <div class="container">
+        <h5>Latest Updates</h5>
+        <div class="company-details">
+          <div class="job-update">
+            <h4><b>Senior Frontend Developer</b></h4>
+            <p>MSI Software Company</p>
+            <i class="fa-solid fa-briefcase"></i> <span>0-1 year</span><br />
+            <i class="fa-solid fa-dollar-sign"></i><span>5000-6000$</span><br />
+            <i class="fa-solid fa-location-dot"></i><span>Paris</span><br />
+            <p>
+              Abilities: <small>Javascript</small> <small>Html/CSS</small
+              ><small>React</small>
+            </p>
+            <p>Check out the ad for details. <a href="a">More Details</a></p>
+          </div>
+          <div class="apply-btn">
+            <button type="button" class="btn btn-primary">Review</button>
+          </div>
+        </div>
+        <div class="company-details">
+          <div class="job-update">
+            <h4><b>Senior Backend Developer</b></h4>
+            <p>Asus Software Company</p>
+            <i class="fa-solid fa-briefcase"></i> <span>4-5 year</span><br />
+            <i class="fa-solid fa-dollar-sign"></i><span>8000-10.000$</span
+            ><br />
+            <i class="fa-solid fa-location-dot"></i><span>İstanbul</span><br />
+            <p>
+              Abilities: <small>C#</small> <small>Python</small
+              ><small>Java</small>
+            </p>
+            <p>Check out the ad for details. <a href="a">More Details</a></p>
+          </div>
+          <div class="apply-btn">
+            <button type="button" class="btn btn-primary">Review</button>
+          </div>
+        </div>
+        <div class="company-details">
+          <div class="job-update">
+            <h4><b>Junior Frontend Developer</b></h4>
+            <p>Apple Software Company</p>
+            <i class="fa-solid fa-briefcase"></i> <span>5-8 year</span><br />
+            <i class="fa-solid fa-dollar-sign"></i><span>10.000-12.000$</span
+            ><br />
+            <i class="fa-solid fa-location-dot"></i><span>London</span><br />
+            <p>
+              Abilities: <small>Javascript</small> <small>Html/CSS</small
+              ><small>Java</small>
+            </p>
+            <p>Check out the ad for details. <a href="a">More Details</a></p>
+          </div>
+          <div class="apply-btn">
+            <button type="button" class="btn btn-primary">Review</button>
+          </div>
+        </div>
+        <ul class="page-link text-center">
+          <li class="left-arrow">&#8592;</li>
+          <li class="active">1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li class="right-arrow">&#8594;</li>
+        </ul>
+      </div>
+    </section>
+    <!--site stats-->
+    <section id="site-stats">
+      <div class="cantainer text-center">
+        <h3>STATİSTİCS</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-6">
+                <div class="stats-box">
+                  <i class="fa-solid fa-user"></i
+                  ><span><small>150k+</small></span>
+                  <p>Job Seekers</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="stats-box">
+                  <i class="fa-solid fa-user"></i
+                  ><span><small>750k+</small></span>
+                  <p>Employers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-6">
+                <div class="stats-box">
+                  <i class="fa-solid fa-user"></i
+                  ><span><small>20k+</small></span>
+                  <p>Active Work</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="stats-box">
+                  <i class="fa-solid fa-user"></i
+                  ><span><small>250+</small></span>
+                  <p>Companies</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <footer class="footer">
+      <h2 class="text-center mb-3">Job Posting Page</h2>
+      <p>Don't forget to follow us to avoid missing job postings.</p>
+      <div class="social-buttons">
+        <img src="images/instagram-icon.png" alt="" />
+        <img src="images/linkedin-icon.png" alt="" />
+        <img src="images/twitter-icon.png" alt="" />
+        <img src="images/whatsapp-icon.png" alt="" />
+      </div>
+      <p class="text-center mt-5">@2024 All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
